@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 
-const API = "https://api.anthropic.com/v1/messages";
+const API = "/api/generate";
 const DAYS = ["Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi","Dimanche"];
 const MEALS = ["Petit-déjeuner","Déjeuner","Dîner"];
 const MEAL_ICON = { "Petit-déjeuner":"🌅","Déjeuner":"☀️","Dîner":"🌙" };
